@@ -1,0 +1,8 @@
+from helper_functions import *
+print_llm_response("What is the capital of France?")
+
+name = "Tommy"
+potatoes = 4.75
+prompt = f"""Write a couplet about my friend {name} who has about {round(potatoes)} potatoes"""
+response = get_llm_response(prompt)
+print(response)
